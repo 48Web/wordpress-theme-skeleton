@@ -36,7 +36,7 @@ function theme_add_admin() {
                 }
             }
 
-            header("Location: themes.php?page=functions.php&saved=true");
+            header("Location: themes.php?page=theme-options.php&saved=true");
             die;
 
         } else if ('reset' == $_REQUEST['action']) {
@@ -45,7 +45,7 @@ function theme_add_admin() {
                 delete_option($value['id']);
             }
 
-            header("Location: themes.php?page=functions.php&reset=true");
+            header("Location: themes.php?page=theme-options.php&reset=true");
             die;
 
         }
