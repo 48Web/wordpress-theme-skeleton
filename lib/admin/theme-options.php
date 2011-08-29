@@ -92,6 +92,12 @@ function theme_admin() {
                             </td>
                         </tr>
 
+						<?php if ($value['desc'] != "") { ?>
+							<tr><td colspan="2">
+								<small><?php echo $value['desc']; ?></small>
+							</td></tr>
+						<?php } ?>
+
                     <?php break;
 
                 case 'text':
