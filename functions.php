@@ -3,6 +3,9 @@
 if (!empty($_SERVER['SCRIPT_FILENAME']) && 'functions.php' == basename($_SERVER['SCRIPT_FILENAME']))
 	die ('Please do not load this page directly!');
 
+// Thumbnail Support
+add_theme_support( 'post-thumbnails' );
+
 // load up jQuery from Google CDN
 if( !is_admin()){
    wp_deregister_script('jquery'); 
