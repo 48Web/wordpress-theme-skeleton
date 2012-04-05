@@ -1,8 +1,8 @@
 <?php /* Template Name: Page*/ ?>
 
 <?php get_header(); ?>
-
-	<div id="content">
+<div class="row">
+	<div id="content" class="span10">
 	    <?php if (have_posts()): while (have_posts()): the_post(); ?>
             <div class="post">
                 <h1><a href="<?php the_permalink() ?>" rel="permalink"><?php the_title(); ?></a></h1>
@@ -18,8 +18,8 @@
 		    </div><!--#end post-->
         <?php endwhile; endif; ?>
 	</div><!--#end content -->
-	<div class="sidbear">
+	<div class="span2">
 		<?php get_sidebar(); ?>
 	</div><!--#end sidebar -->
-
+</div>
 <?php get_footer(); ?>
