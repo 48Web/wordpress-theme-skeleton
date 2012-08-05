@@ -1,5 +1,3 @@
-<?php /* Template Name: Page*/ ?>
-
 <?php get_header(); ?>
 <div class="row">
 	<div id="content" class="span10">
