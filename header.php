@@ -38,15 +38,15 @@
 	
 	<!--Scripts--> 
 	<?php // NOTE: We are enqueing jQuery from Google CDN in the functions.php. If it doesn't load we grab the local version ?>
-	<script>!window.jQuery && document.write('<script src="scripts/jquery-1.6.2.min.js"><\/script>')</script>
+	<script>!window.jQuery && document.write('<script src="js/jquery-1.6.2.min.js"><\/script>')</script>
 	<script type="text/javascript">
 		jQuery(document).ready(function init() { 
 			// jQuery init function
 		});
 	</script>
 	
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/jquery.browser.addEnvClass.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/init.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.browser.addEnvClass.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/init.js"></script>
 	 
 	
 </head>
